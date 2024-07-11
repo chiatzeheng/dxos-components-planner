@@ -1,0 +1,47 @@
+{
+  "name": "10x",
+  "version": "0.1.0",
+  "description": "10x",
+  "private": true,
+  "scripts": {
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@dxos/client": "0.5.5",
+    "@dxos/config": "0.5.5",
+    "@dxos/echo-schema": "0.5.5",
+    "@dxos/react-client": "0.5.5",
+    "@dxos/shell": "0.5.5",
+    "@phosphor-icons/react": "^2.0.5",
+    "@radix-ui/react-alert-dialog": "^1.1.1",
+    "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-dropdown-menu": "^2.1.1",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-scroll-area": "^1.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.407.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.0",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.39",
+    "@types/react": "~18.0.21",
+    "@types/react-dom": "~18.0.6",
+    "@types/sharedworker": "^0.0.111",
+    "@vitejs/plugin-react": "~4.2.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "typescript": "~5.0.4",
+    "vite": "^5.2.11",
+    "vite-plugin-top-level-await": "~1.4.1",
+    "vite-plugin-wasm": "~3.3.0"
+  }
+}
